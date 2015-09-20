@@ -1,0 +1,50 @@
+/* stylsheet */
+body {
+	background: url("../backgrounds/coffee-beans-new.jpg") no-repeat center center fixed;
+}
+.centeredSplash {
+	display: flex;
+	flex-direction: column;	
+	align-items: center;
+	justify-content: center;
+	height: 80vh;
+}
+.logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.display {
+	width: 80%;
+	margin: 0 auto;
+}
+hr {
+	border: 0;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+	height: 2px;
+	margin: 0 auto;
+}
+.linkElement {
+	font-family: sans-serif;
+	margin: 5px;
+	padding: 0px 25px 25px 25px;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+}
+.linkElement:hover{
+	transition-duration: 0.3s;
+	transform: translateY(8px);
+}
+.links {
+	display: flex;
+	justify-content: space-around;
+	margin: 0;
+}
+
+@media screen and (max-width: 850px) {
+	#logo{
+		content:url("../Logo/benMedia.png");
+	}
+}
